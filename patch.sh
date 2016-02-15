@@ -53,7 +53,7 @@ echo "==============================================="
 cd webview
 git fetch https://github.com/CyanogenMod-S6310/android_frameworks_webview.git cm-11.0 > /dev/null
 echo "Revert: Remove the classic WebView from the build."
-git cherry-pick c79c9df7b4381370027265badaac14bed634dc8dn > /dev/null
+git cherry-pick c79c9df7b4381370027265badaac14bed634dc8d > /dev/null
 cd ../../
 
 echo "Patching recovery"
